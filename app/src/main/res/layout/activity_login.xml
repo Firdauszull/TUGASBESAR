@@ -11,10 +11,11 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <ImageView
             android:layout_width="500dp"
-            android:layout_height="250dp"
-            android:background="@drawable/cornerradius"
+            android:layout_height="290dp"
+            android:background="@drawable/radius"
             />
 
         <ImageView
@@ -23,6 +24,13 @@
             android:layout_below="@id/btnmenuLogin"
             android:layout_marginLeft="100dp"
             android:background="@drawable/line" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/logo" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -58,6 +66,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/inputEmail"
                 android:hint="Email"
+                android:textColor="@color/black"
                 android:inputType="textEmailAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -78,6 +87,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/inputPassword"
                 android:hint="Password"
+                android:textColor="@color/black"
                 android:inputType="text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -100,6 +110,7 @@
             android:layout_marginEnd="50dp"/>
 
         <TextView
+            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Forget Your Password ?"
@@ -109,28 +120,29 @@
             android:textStyle="bold"
             android:textColor="#FF0000"
             />
-        <Button
+        <TextView
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:backgroundTint="#00FFFFFF"
             android:outlineSpotShadowColor="@color/white"
             android:id="@+id/btnmenuLogin"
-            android:text="Login"
-            android:textSize="15sp"
+            android:text="Sign In"
+            android:textSize="20sp"
+            android:textAlignment="center"
             android:layout_marginTop="200dp"
             android:layout_marginLeft="90dp"
             android:textStyle="bold"
             android:textColor="@color/black"/>
-        <Button
+        <TextView
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:backgroundTint="#00FFFFFF"
-            android:outlineSpotShadowColor="@color/white"
             android:id="@+id/btnmenuSignup"
             android:text="Sign Up"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:layout_marginTop="200dp"
             android:layout_marginLeft="220dp"
+            android:textAlignment="center"
             android:textStyle="bold"
             android:textColor="@color/black"/>
 

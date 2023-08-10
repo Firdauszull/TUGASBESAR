@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/profile"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:text="My Profile"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="140dp"
+        android:text="Personal details"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="140dp"
+        android:text="change"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="180dp">
+
+        <ImageView
+            android:id="@+id/backprof"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="25dp"
+            android:src="@drawable/backshape" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/prof"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="50dp"
+            android:text="Rasyid Muhammad"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+            android:text="firdaus15.mfz@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linewhite"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="110dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="115dp"
+            android:text="+62 821-3895-3980"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/linewhite"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="140dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="145dp"
+            android:text="Bekasi, Bekasi Timur"
+            android:textColor="@color/black"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/orders"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/backprof"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/backshape"
+            android:text="Orders"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/pending"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/orders"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/backshape"
+            android:text="Pending"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/faq"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/pending"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/backshape"
+            android:text="Faq"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/help"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:layout_below="@+id/faq"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/backshape"
+            android:text="Help"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:gravity="center"/>
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>
